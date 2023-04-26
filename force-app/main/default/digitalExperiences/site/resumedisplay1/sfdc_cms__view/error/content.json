@@ -1,0 +1,59 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Error",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "sectionConfig" : "{\"UUID\":\"f146834c-45c7-4600-93c1-9565b4720b65\",\"columns\":[{\"UUID\":\"dcc70a9c-e6d4-4755-88b9-b15080b9bf64\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h1 style=\"text-align: center;\">Invalid Page</h1>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "6e31f298-5ec4-488a-b7ea-6d896e63b33f",
+              "type" : "component"
+            } ],
+            "id" : "dcc70a9c-e6d4-4755-88b9-b15080b9bf64",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "f146834c-45c7-4600-93c1-9565b4720b65",
+          "type" : "component"
+        } ],
+        "id" : "8eff8e53-73cb-4b80-8a01-77a51bf499a8",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Error",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "c2179ecf-8327-434c-b675-81c9b45f7013",
+          "type" : "component"
+        } ],
+        "id" : "44459295-e28a-471f-beeb-34e53515fa26",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "7f12acb4-a82c-4560-af73-5b76a6f841dd",
+      "type" : "component"
+    },
+    "themeLayoutType" : "Inner",
+    "viewType" : "error"
+  }
+}

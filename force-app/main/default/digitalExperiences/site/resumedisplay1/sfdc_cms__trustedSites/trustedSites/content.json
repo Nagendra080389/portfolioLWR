@@ -1,0 +1,31 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://kit.fontawesome.com/31149d48b0.js",
+      "sourceName" : "kit.fontawesome.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js",
+      "sourceName" : "cdn.jsdelivr.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://drm.file.force.com/",
+      "sourceName" : "drm"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.google-analytics.com",
+      "sourceName" : "www.google-analytics.com"
+    }, {
+      "isActive" : true,
+      "source" : "https://stats.g.doubleclick.net",
+      "sourceName" : "stats.g.doubleclick.net"
+    }, {
+      "isActive" : true,
+      "source" : "https://www.googletagmanager.com/gtag/js",
+      "sourceName" : "www.googletagmanager.com"
+    } ]
+  }
+}
